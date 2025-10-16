@@ -1,7 +1,0 @@
-https://github.com/sastigopaldas/Bioinformatics/tree/main/snakemake
-
-
-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
-
-
-https://github.com/sastigopaldas/Bioinformatics

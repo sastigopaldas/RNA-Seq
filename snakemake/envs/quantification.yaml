@@ -1,7 +1,0 @@
-# Quantification environment:
-channels:
-  - conda-forge
-  - bioconda
-dependencies:
-  - subread=2.0.6
-  - salmon=1.10.0

@@ -1,8 +1,0 @@
-# Alignment environment:
-channels:
-  - conda-forge
-  - bioconda
-dependencies:
-  - star=2.7.10a
-  - samtools=1.17
-  - sambamba=0.8.2
