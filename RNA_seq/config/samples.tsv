@@ -1,0 +1,10 @@
+sample	condition	batch
+SRR031714	control	batch1
+SRR031715	control	batch1
+SRR031716	control	batch2
+SRR031717	control	batch2
+SRR031724	treated	batch1
+SRR031725	treated	batch1
+SRR031726	treated	batch2
+SRR031727	treated	batch2
+

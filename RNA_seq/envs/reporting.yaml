@@ -1,0 +1,13 @@
+# Reporting environment:
+name: reporting
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - matplotlib
+  - seaborn
+  - jinja2
+

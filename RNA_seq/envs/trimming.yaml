@@ -1,0 +1,10 @@
+# Trimming environment:
+
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - trimmomatic
+  - openjdk
+
+

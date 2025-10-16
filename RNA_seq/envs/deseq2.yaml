@@ -1,0 +1,19 @@
+# DESeq2 analysis environment:
+name: deseq2
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - r-base=4.3.*
+  - bioconductor-deseq2
+  - bioconductor-apeglm
+  - bioconductor-tximport
+  - bioconductor-annotationdbi
+  - r-ggplot2
+  - r-pheatmap
+  - r-data.table
+  - r-ggrepel
+  - bioconductor-enhancedvolcano
+
+
