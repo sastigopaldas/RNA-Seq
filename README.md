@@ -51,6 +51,7 @@ This workflow processes raw RNA-seq data, performs quality control, aligns reads
 - Sample6	treated	
 - Sample7  treated	
 - Sample8	treated
+wwwwwwwwwwwwww
 ---
 
 ## Step 6: Configure Paths
