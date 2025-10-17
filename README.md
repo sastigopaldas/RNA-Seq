@@ -53,10 +53,9 @@ source ~/.bashrc
 # Verify installation
 conda --version
 
-## Installation
-
-**Step 2: Create Conda Environment for Snakemake**
-***conda create -n snakemake7 python=3.10 snakemake***
+## Step 2: Create Conda Environment for Snakemake
+```
+conda create -n snakemake7 python=3.10 snakemake
 
 **Step 3: Activate the Environment**
 ***conda activate snakemake7***
