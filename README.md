@@ -54,20 +54,36 @@ source ~/.bashrc
 conda --version
 
 
+**Step 2: Create Conda Environment for Snakemake**
+***conda create -n snakemake7 python=3.10 snakemake***
 
+**Step 3: Activate the Environment**
+***conda activate snakemake7***
 
+**Step 4: Clone the Repository**
+***git clone https://github.com/<your-username>/RNA_seq.git
+cd RNA_seq***
 
+**Step 5: Configure Samples**
+***Edit config/samples.tsv to include your RNA-seq samples:***
+***sample	condition	read1	read2
+Sample1	Treatment	data/Sample1_R1.fastq.gz	data/Sample1_R2.fastq.gz
+Sample2	Control	data/Sample2_R1.fastq.gz	data/Sample2_R2.fastq.gz***
 
+**Step 6: Configure Paths**
+***Edit config/config.yaml to set paths for your data, reference genome, and results:***
+***paths:
+  data_dir: "data"
+  reference_dir: "reference"
+  results_dir: "results"
+  adapters: "reference/adapters.fa"***
 
+**Step 7: Activate Logging and Dry Run**
+***nakemake --use-conda --cores 4 -n***
 
+**Step 8: Run Snakemake Workflow**
+***snakemake --use-conda --cores 4***
 
-
-
-A reproducible RNA-seq analysis workflow implemented with Snakemake.
-
-
-**Step 1: If Conda is not installed on your system, install it first.**
-
-**Step 2: Create a Conda environment for Snakemake:**
-
-conda create -n snakemake7 python=3.10 snakemake
+**Contact**
+***Developed by Sasti Gopal Das
+Email: sastigopaldas05@gmail.com***
