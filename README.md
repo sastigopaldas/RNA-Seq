@@ -19,7 +19,7 @@ This workflow processes raw RNA-seq data, performs quality control, aligns reads
 
 ## Requirements
 
-- Linux or MacOS system  
+- Linux  
 - Miniconda or Anaconda installed  
 - 4 cores and at least 8 GB RAM (recommended)  
 
@@ -36,7 +36,7 @@ This workflow processes raw RNA-seq data, performs quality control, aligns reads
 
 ## Step 4: Clone the Repository
 - git clone https://github.com/<your-username>/RNA_seq.git
-- cd RNA_seq***
+- cd RNA_seq
 ---
 
 ## Step 5: Configure Samples
@@ -55,10 +55,10 @@ This workflow processes raw RNA-seq data, performs quality control, aligns reads
 ## Step 6: Configure Paths
 ### Edit config/config.yaml to set paths for your data, reference genome, and results:
 - paths:
-- data_dir: "data"
-- reference_dir: "reference"
-- results_dir: "results"
-- adapters: "reference/adapters.fa"
+-   data_dir: "data"
+-   reference_dir: "reference"
+-   results_dir: "results"
+-   adapters: "reference/adapters.fa"
 ---
 
 ## Step 7: Activate Logging and Dry Run
