@@ -36,24 +36,8 @@ This workflow processes raw RNA-seq data, performs quality control, aligns reads
 
 ---
 
-## Installation
-
-### Step 1: Install Conda (if not installed)
-
-```bash
-# Download Miniconda (Linux example)
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-
-# Run installer
-bash Miniconda3-latest-Linux-x86_64.sh
-
-# Reload shell
-source ~/.bashrc
-
-# Verify installation
-conda --version
-
 ## Step 2: Create Conda Environment for Snakemake
 
 ### conda create -n snakemake7 python=3.10 snakemake
+
 
