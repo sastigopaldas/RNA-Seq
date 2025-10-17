@@ -42,6 +42,7 @@ This workflow processes raw RNA-seq data, performs quality control, aligns reads
 ## Step 5: Configure Samples
 ### Edit config/samples.tsv to include your RNA-seq samples:
 #### sample	condition
+---
 ##### Sample1  control
 ##### Sample2	control
 ##### Sample3  control
@@ -50,7 +51,7 @@ This workflow processes raw RNA-seq data, performs quality control, aligns reads
 ##### Sample6	treated	
 ##### Sample7  treated	
 ##### Sample8	treated
----
+
 
 ## Step 6: Configure Paths
 ### Edit config/config.yaml to set paths for your data, reference genome, and results:
