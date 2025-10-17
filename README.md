@@ -38,7 +38,7 @@ This workflow processes raw RNA-seq data, performs quality control, aligns reads
 
 ## Step 2: Create Conda Environment for Snakemake
 
-- conda create -n snakemake7 python=3.10 snakemake***
+- conda create -n snakemake7 python=3.10 snakemake
 ---
 
 ## Step 3: Activate the Environment
@@ -51,14 +51,14 @@ This workflow processes raw RNA-seq data, performs quality control, aligns reads
 ---
 
 ## Step 5: Configure Samples
-- Edit config/samples.tsv to include your RNA-seq samples:***
+### Edit config/samples.tsv to include your RNA-seq samples:
 - sample	condition	read1	read2
 - Sample1	Treatment	data/Sample1_R1.fastq.gz	data/Sample1_R2.fastq.gz
-- Sample2	Control	data/Sample2_R1.fastq.gz	data/Sample2_R2.fastq.gz***
+- Sample2	Control	data/Sample2_R1.fastq.gz	data/Sample2_R2.fastq.gz
 ---
 
 ## Step 6: Configure Paths
-- Edit config/config.yaml to set paths for your data, reference genome, and results:***
+### Edit config/config.yaml to set paths for your data, reference genome, and results:
 - paths:
 - data_dir: "data"
 - reference_dir: "reference"
