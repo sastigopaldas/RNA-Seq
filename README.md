@@ -37,8 +37,8 @@ This workflow processes raw RNA-seq data, performs quality control, aligns reads
 ---
 
 ## Step 2: Create Conda Environment for Snakemake
-
-- conda create -n snakemake7 python=3.10 snakemake
 ---
+***conda create -n snakemake7 python=3.10 snakemake***
+
 
 
